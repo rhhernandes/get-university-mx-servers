@@ -1,6 +1,6 @@
 # Get US universities mail servers
 
-This script uses Python module `dnspython` to gather information on what email providers are used by each American university.
+This [script](get-universities.ipynb) uses Python module `dnspython` to gather information on what email providers are used by each American university.
 
 The full list of universities and their web pages was generated from the [National Center for Education Statistics' Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/datacenter/Data.aspx). It was saved to the `.data/in/universities_urls.csv` file.
 
@@ -13,3 +13,7 @@ Further reference:
 * https://gitlab.com/ccsl-ufpa/get-mx-universities/-/blob/master/get-mx-universities.py
 * https://stackoverflow.com/questions/4336849/mx-record-lookup-and-check/4339305
 * https://www.exclamationsoft.com/exclamationsoft/netmailbot/help/reference/find_mail_server.asp    
+
+# License
+
+This software is distributed under the [MIT license](LICENSE).
